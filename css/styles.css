@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    font-weight: light;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: Roboto, sans-serif;
+    min-width: 100vh;
+}
+
+body > * {
+    padding: 32px 20%;
+}
+
+.app-store-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    padding: 16px;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 20%;
+}
+
+.header-logo {
+    font-size: 24px; 
+}
+
+.header-links {
+    display: flex;
+    gap: 16px;
+    font-size: 18px;
+}
+
+/* Introduction */
+.introduction {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.introduction-text {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.introduction-text h1 {
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.introduction-text p {
+    font-size: 18px;
+}
+
+.introduction .app-store-links {
+    flex-direction: column;
+}
+
+
+/* Information */
+.information {
+    text-align: center;
+}
+
+.information h1 {
+    font-size: 32px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.social-media-icons {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.social-media-icons > * {
+    width: 150px;
+}
+
+/* Reviews */
+.reviews {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.review-box {
+    height: 200px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.review-text {
+    font-size: 24px;
+    font-style: italic;
+}
+
+.review-user {
+    text-align: end;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Download now: */
+.downloads {
+    text-align: center;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    padding: 16px 20%;
+}
+
+/* Dark background */
+.header, .introduction, .footer, button {
+    background-color: #1F2937;
+}
+
+/* 
+
+/* White text */
+.header-logo, .introduction-text h1 {
+    color: #F9FAF8;
+}
+
+/* Grey-white text */
+.header-links, .introduction-text p, .footer, button {
+    color: #E5E7EB;
+}
+
+/* Elements */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+button {
+    font-size: 24px;
+    padding: 8px 16px;
+    border-radius: 12px;
+    border-color: #E5E7EB;
+}
